@@ -1,22 +1,21 @@
 {
   "name": "@soundchips/pokey",
-  "version": "0.0.0",
-  "description": "> TODO: description",
-  "author": "Tayler <taylermiller360@gmail.com>",
-  "homepage": "",
-  "license": "ISC",
-  "main": "lib/pokey.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "node ./__tests__/@soundchips/pokey.test.js"
-  }
+    "compile": "tsc -b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tayler Miller <taylermiller360@gmail.com> (https://github.com/OnesAndZer0s)",
+  "license": "GNU",
+  "keywords": [
+    "soundchips",
+    "retro",
+    "emulation",
+    "sound",
+    "atari",
+    "pokey"
+  ],
+  "description": "Emulation of the POKEY sound chip used in Atari 8-bit computers and arcade games."
 }

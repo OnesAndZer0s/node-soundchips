@@ -1,11 +1,4 @@
 {
-  "name": "root",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "lerna": "^7.1.4"
-  }
+  "name": "node-soundchips",
+  "packageManager": "yarn@3.6.1"
 }
