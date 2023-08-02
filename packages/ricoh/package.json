@@ -1,6 +1,6 @@
 {
   "name": "@soundchips/ricoh",
-  "version": "0.0.4",
+  "version": "0.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -17,5 +17,7 @@
     "NES"
   ],
   "description": "Emulation of the Ricoh 2A03 sound chip used in the Nintendo Entertainment System (NES).",
-  "gitHead": "cf99811529e4acd11b6f0ce70afd650148a8d349"
+  "publishConfig": {
+    "access": "public"
+  }
 }

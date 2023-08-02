@@ -1,6 +1,6 @@
 {
   "name": "@soundchips/vgm-parser",
-  "version": "0.0.4",
+  "version": "0.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -20,7 +20,6 @@
   "dependencies": {
     "zlibjs": "^0.3.1"
   },
-  "gitHead": "cf99811529e4acd11b6f0ce70afd650148a8d349",
   "publishConfig": {
     "access": "public"
   }

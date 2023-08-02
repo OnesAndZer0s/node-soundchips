@@ -2,7 +2,7 @@
   "entryPoints": [
     "packages/*"
   ],
-  "name": "node-soundchips",
+  "name": "@soundchips",
   "entryPointStrategy": "packages",
   "includeVersion": true
   // Potentially useful for debugging
