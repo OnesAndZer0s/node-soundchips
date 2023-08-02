@@ -1,0 +1,8 @@
+54 error Error: Command failed with exit code 128: git tag v0.0.1 -m v0.0.1
+54 error fatal: tag 'v0.0.1' already exists
+54 error     at makeError (/home/tayler/Programming/node-soundchips/node_modules/execa/lib/error.js:59:11)
+54 error     at handlePromise (/home/tayler/Programming/node-soundchips/node_modules/execa/index.js:114:26)
+54 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+54 error     at async VersionCommand.gitCommitAndTagVersion (/home/tayler/Programming/node-soundchips/node_modules/lerna/dist/index.js:8370:9)
+54 error     at async VersionCommand.commitAndTagUpdates (/home/tayler/Programming/node-soundchips/node_modules/lerna/dist/index.js:8340:18)
+54 error     at async Promise.all (index 0)

@@ -1,5 +1,5 @@
 # `@soundchips/vgm-parser` - VGM File Parser
-[![License: GNU](https://img.shields.io/badge/License-GNU-blue.svg)](https://opensource.org/licenses/GNU)
+[![npm version](https://badge.fury.io/js/@soundchips%2Fvgm-parser.svg)](https://badge.fury.io/js/@soundchips%2Fvgm-parser) [![License: GNU](https://img.shields.io/badge/License-GNU-blue.svg)](https://opensource.org/licenses/GNU)
 
 `@soundchips/vgm-parser` is a Node.js module that parses VGM files into an object. This module is part of the `@soundchips` monorepo.
 
