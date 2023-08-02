@@ -1,5 +1,5 @@
 {
-  "name": "@soundchips/ricoh",
+  "name": "@soundchips/vgm-parser",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,8 +13,11 @@
     "retro",
     "emulation",
     "sound",
-    "ricoh",
-    "NES"
+    "vgm",
+    "vgz"
   ],
-  "description": "Emulation of the Ricoh 2A03 sound chip used in the Nintendo Entertainment System (NES)."
+  "description": "A VGM/VGZ parser for Node.js",
+  "dependencies": {
+    "zlibjs": "^0.3.1"
+  }
 }

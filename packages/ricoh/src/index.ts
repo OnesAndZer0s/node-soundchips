@@ -1,1 +1,1 @@
-console.log( 'ricoh' )
+export const RICOH = 'RICOH';

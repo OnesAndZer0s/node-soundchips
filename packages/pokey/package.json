@@ -4,8 +4,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "compile": "tsc -b",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require ts-node/register test/**/*.test.ts"
   },
   "author": "Tayler Miller <taylermiller360@gmail.com> (https://github.com/OnesAndZer0s)",
   "license": "GNU",

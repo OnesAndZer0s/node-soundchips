@@ -1,1 +1,1 @@
-console.log( 'pokey' )
+export const POKEY = 'POKEY';

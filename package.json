@@ -1,4 +1,37 @@
 {
   "name": "node-soundchips",
-  "packageManager": "yarn@3.6.1"
+  "description": "A collection of soundchip emulators for Node.js",
+  "author": "Tayler Miller <taylermiller360@gmail.com> (https://github.com/OnesAndZer0s)",
+  "license": "GNU",
+  "keywords": [
+    "soundchips",
+    "retro",
+    "emulation",
+    "sound"
+  ],
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "lerna clean --yes",
+    "publish": "lerna publish",
+    "test": "lerna run test",
+    "docgen": "typedoc --out docs --entryPointStrategy \"packages\" --excludeExternals --excludePrivate --excludeProtected --excludeInternal --exclude \"**/*.test.ts\" packages/*"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.4.5",
+    "chai": "^4.3.7",
+    "lerna": "^7.1.4",
+    "mocha": "^10.2.0",
+    "typedoc": "^0.24.8",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "speaker": "^0.5.4",
+    "ts-node": "^10.9.1"
+  }
 }
