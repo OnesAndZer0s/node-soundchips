@@ -37,8 +37,6 @@ The `node-soundchips` monorepo currently includes the following sound chip modul
 <!-- - [`@soundchips/ay-3-8910`]() -->
 - [`@soundchips/vgm-parser`](https://github.com/onesandzer0s/node-soundchips/blob/master/packages/vgm-parser/README.md)
 
-Each module is accompanied by its own README with usage instructions.
-
 ## Documentation
 
 For detailed information on how to use each sound chip module, refer to the [documentation](https://onesandzer0s.github.io/node-soundchips/).
