@@ -16,5 +16,6 @@
     "atari",
     "pokey"
   ],
-  "description": "Emulation of the POKEY sound chip used in Atari 8-bit computers and arcade games."
+  "description": "Emulation of the POKEY sound chip used in Atari 8-bit computers and arcade games.",
+  "gitHead": "cf99811529e4acd11b6f0ce70afd650148a8d349"
 }
