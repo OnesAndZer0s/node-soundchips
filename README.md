@@ -33,15 +33,15 @@ For detailed information on how to use each sound chip module, refer to the indi
 
 The `node-soundchips` monorepo currently includes the following sound chip modules:
 
-- [`@soundchips/sn76489`]()
-- [`@soundchips/ay-3-8910`]()
+<!-- - [`@soundchips/sn76489`]() -->
+<!-- - [`@soundchips/ay-3-8910`]() -->
 - [`@soundchips/vgm-parser`](https://github.com/onesandzer0s/node-soundchips/blob/master/packages/vgm-parser/README.md)
 
 Each module is accompanied by its own README with usage instructions.
 
 ## Documentation
 
-For detailed information on how to use each sound chip module, refer to the [documentation]().
+For detailed information on how to use each sound chip module, refer to the [documentation](https://onesandzer0s.github.io/node-soundchips/).
 ## License
 
 `node-soundchips` is licensed under the [GNU License](https://github.com/onesandzer0s/node-soundchips/blob/master/LICENSE). Feel free to use, modify, and distribute this project following the terms of the license.
