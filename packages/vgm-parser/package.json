@@ -1,6 +1,6 @@
 {
   "name": "@soundchips/vgm-parser",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -19,4 +19,5 @@
   "description": "A VGM/VGZ parser for Node.js",
   "dependencies": {
     "zlibjs": "^0.3.1"
-  }}
+  }
+}
