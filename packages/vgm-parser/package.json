@@ -19,5 +19,4 @@
   "description": "A VGM/VGZ parser for Node.js",
   "dependencies": {
     "zlibjs": "^0.3.1"
-  }
-}
+  }}
