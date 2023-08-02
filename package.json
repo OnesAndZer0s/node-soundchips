@@ -3,6 +3,7 @@
   "description": "A collection of soundchip emulators for Node.js",
   "author": "Tayler Miller <taylermiller360@gmail.com> (https://github.com/OnesAndZer0s)",
   "license": "GNU",
+  "private": true,
   "keywords": [
     "soundchips",
     "retro",
